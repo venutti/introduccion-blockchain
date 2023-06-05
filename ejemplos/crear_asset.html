@@ -1,38 +1,39 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/stellar-sdk/10.1.0/stellar-sdk.min.js"
-        integrity="sha512-EqNQsxKR6rZ5xKl29xXa+ez7xgtVSUpj9UDzZmTqoyF0wHbusLkrP8S7dOsKa9DmkoHbssoWUA4+n/0KYY1EAQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/stellar-sdk/10.1.0/stellar-sdk.min.js"
+      integrity="sha512-EqNQsxKR6rZ5xKl29xXa+ez7xgtVSUpj9UDzZmTqoyF0wHbusLkrP8S7dOsKa9DmkoHbssoWUA4+n/0KYY1EAQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <title>Ejemplo de pago</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div>
-        <div>
-            <p>Los balances del Emisor son...</p>
-            <ul id="issuer-balances">
-            </ul>
-            <p>Los balances del Distribuidor son...</p>
-            <ul id="distributor-balances">
-            </ul>
-        </div>
+      <div>
+        <p>Los balances del Emisor son...</p>
+        <ul id="issuer-balances"></ul>
+        <p>Los balances del Distribuidor son...</p>
+        <ul id="distributor-balances"></ul>
+      </div>
 
-        <button id="load-balances">Cargar balances</button>
+      <button id="load-balances">Cargar balances</button>
 
-        <br />
-        <hr />
+      <br />
+      <hr />
 
-        <button id="create-asset">Crear asset</button>
+      <button id="create-asset">Crear asset</button>
     </div>
 
     <script type="text/javascript" src="utils.js"></script>
     <script type="text/javascript" src="crear_asset.js"></script>
-</body>
-
+  </body>
 </html>

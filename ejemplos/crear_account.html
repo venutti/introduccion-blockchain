@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/stellar-sdk/10.1.0/stellar-sdk.min.js"
+      integrity="sha512-EqNQsxKR6rZ5xKl29xXa+ez7xgtVSUpj9UDzZmTqoyF0wHbusLkrP8S7dOsKa9DmkoHbssoWUA4+n/0KYY1EAQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <title>Creación de cuenta en TestNet</title>
+  </head>
+
+  <body>
+    <div>
+      <div>
+        <h2>Generador de KeyPair</h2>
+        <p>Public Key: <span id="public-key"></span></p>
+        <p>Secret Key: <span id="secret-key"></span></p>
+
+        <button id="generate-keypair">Generar KeyPair</button>
+      </div>
+
+      <div>
+        <h2>Creación de cuenta</h2>
+        <button id="fund-account">Fondear Cuenta con Friendbot</button>
+      </div>
+    </div>
+    <script type="text/javascript" src="utils.js"></script>
+    <script type="text/javascript" src="crear_account.js"></script>
+  </body>
+</html>
